@@ -90,16 +90,16 @@ python eval/run_eval.py --id TC01 TC10 TC16
 ```
 claims-ai/
 ├── agents/
-│   ├── guardrail_check.py   # Agent 1 — Intake Guardrails
-│   ├── claim_parser.py      # Agent 2 — Inquiry Inference
-│   └── safety_checks.py     # Agent 3 — Compliance
+│   ├── guardrail_check.py      # Agent 1 — Intake Guardrails
+│   ├── claim_parser.py         # Agent 2 — Inquiry Inference
+│   └── safety_checks.py        # Agent 3 — Compliance
 ├── eval/
-│   ├── test_cases.json      # 18 evaluation cases
-│   └── run_eval.py          # Evaluation harness
+│   ├── test_cases.json         # 18 evaluation cases
+│   └── run_eval.py             # Evaluation harness
 ├── docs/
-│   ├── architecture.md      # Architecture rationale
-│   └── exec_email.md        # Executive email to Head of Claims
-├── orchestrator.py          # Pipeline orchestration
+│   ├── architecture.md         # Architecture rationale
+│   └── evaluation_report.md    
+├── orchestrator.py             # Pipeline orchestration
 ├── requirements.txt
 └── README.md
 ```
