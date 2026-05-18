@@ -37,6 +37,9 @@ Policyholder message
    Compliant reply delivered
 ```
 
+<img width="715" height="352" alt="image" src="https://github.com/user-attachments/assets/0c85ef41-e554-49f0-b04f-65d7f569c1cb" />
+
+
 ## Setup
 
 ### 1. Clone and install dependencies
